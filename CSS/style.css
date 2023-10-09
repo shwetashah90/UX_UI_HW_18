@@ -290,32 +290,38 @@
    font-weight: 700;
    color: rgba(72, 72, 72, 1);
    width: 1152px;
-   height: 42px;
+   height: 42px;}
+
 .washington {
     font-size: 20px;
    font-family: "Lato";
    font-weight: 700;
    color: rgba(45, 45, 45, 1);
    width: 564px;
-   height: 30px;
-.ux,_ia,_su {
-    font-size: 20px;
-   font-family: "Lato";
-   font-weight: 400;
-   color: rgba(45, 45, 45, 1);
-   width: 564px;
-   height: 27px;
+   height: 30px;}
+
 .eco_quest_ {
     font-size: 20px;
    font-family: "Lato";
    font-weight: 700;
    color: rgba(45, 45, 45, 1);
    width: 564px;
-   height: 30px;
+   height: 30px;}
+
 .ux_researc {
     font-size: 20px;
    font-family: "Lato";
    font-weight: 400;
    color: rgba(45, 45, 45, 1);
    width: 564px;
-   height: 27px;
+   height: 27px;}
+
+.workimg{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    /*width: 564px;*/
+    position: relative;}
