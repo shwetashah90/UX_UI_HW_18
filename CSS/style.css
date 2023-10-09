@@ -283,11 +283,11 @@
 }
 
 /* My Work Section */
-.work,
-.work * {
+.work1,
+.work1 * {
   box-sizing: border-box;
 }
-.work {
+.work1 {
   background: var(--white, #ffffff);
   border-style: solid;
   border-color: #ebebeb;
@@ -318,8 +318,9 @@
   flex-direction: row;
   gap: 24px;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   align-self: stretch;
+  max-width: 1152;
   flex-shrink: 0;
   position: relative;
 }
@@ -334,12 +335,13 @@
   min-width: 320px;
   position: relative;
 }
-/*.image-34 {
+.workimg {
   flex-shrink: 0;
   width: 564px;
   height: 330px;
   position: relative;
-}*/
+}
+
 .title-description {
   display: flex;
   flex-direction: column;
