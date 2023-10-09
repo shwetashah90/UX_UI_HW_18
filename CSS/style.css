@@ -1,0 +1,321 @@
+/* Header Section */
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: #006185;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  /*width: 1280px;*/
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.about {
+  flex-shrink: 0;
+  width: 44px;
+  height: 19px;
+  position: relative;
+}
+.about2 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Lato", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 39px;
+  height: 19px;
+  position: relative;
+}
+.contact {
+  flex-shrink: 0;
+  width: 56px;
+  height: 19px;
+  position: relative;
+}
+
+/* Hero Section */
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
+.hero {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 0px 0px 1px 0px;
+  padding: 42px 64px 42px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  max-width: 620px;
+  position: relative;
+}
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hi-i-am {
+  color: #484848;
+  text-align: left;
+  font: 700 30px "Lato", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sweta-shah {
+  color: #484848;
+  text-align: left;
+  font: 700 52px "Epilogue", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ct-as {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: #484848;
+  border-radius: 32px;
+  padding: 8px 48px 8px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact1 {
+  color: #ffffff;
+  text-align: center;
+  font: 20px "Lato", sans-serif;
+  position: center;
+}
+.button2 {
+  /*background: #ffc102; changed to set contrast*/
+  background: #ff7402;
+  border-radius: 32px;
+  padding: 8px 64px 8px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: center;
+}
+.designer-1 {
+  flex-shrink: 0;
+  width: 376px;
+  height: 245px;
+  position: relative;
+}
+
+
+/* Footer Section */
+
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: #006185;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  /*width: 1280px;*/
+  height: 48px;
+  /*position: relative;*/
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.designed-by-sweta-shah {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Lato", sans-serif;
+  position: relative;
+}
+
+
+/* My UX Skills */
+.ux-skills,
+.ux-skills * {
+  box-sizing: border-box;
+}
+.ux-skills {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 0px 0px 1px 0px;
+  padding: 42px 64px 42px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ux-skills2 {
+  color: #484848;
+  text-align: left;
+  font: 700 32px/42px "Epilogue", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1152px;
+  position: relative;
+}
+.frame-3 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-3 {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.design-thinking {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+.frame-42 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.interaction-design {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+.frame-5 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.information-architecture {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+
+/* My Work Section */
+
+.my_work {
+    font-size: 32px;
+   font-family: "Epilogue";
+   font-weight: 700;
+   color: rgba(72, 72, 72, 1);
+   width: 1152px;
+   height: 42px;
+.washington {
+    font-size: 20px;
+   font-family: "Lato";
+   font-weight: 700;
+   color: rgba(45, 45, 45, 1);
+   width: 564px;
+   height: 30px;
+.ux,_ia,_su {
+    font-size: 20px;
+   font-family: "Lato";
+   font-weight: 400;
+   color: rgba(45, 45, 45, 1);
+   width: 564px;
+   height: 27px;
+.eco_quest_ {
+    font-size: 20px;
+   font-family: "Lato";
+   font-weight: 700;
+   color: rgba(45, 45, 45, 1);
+   width: 564px;
+   height: 30px;
+.ux_researc {
+    font-size: 20px;
+   font-family: "Lato";
+   font-weight: 400;
+   color: rgba(45, 45, 45, 1);
+   width: 564px;
+   height: 27px;
